@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:170px;
+    
+}
+
+.container{
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+}
+#btn2{
+    float: right;
+}
