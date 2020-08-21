@@ -1,9 +1,12 @@
+
+
+@import 'https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap';
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:170px;
-    
+    padding-top:80px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .container{
@@ -13,4 +16,19 @@ body{
 }
 #btn2{
     float: right;
+}
+#btn1,#btn2{
+    border: none;
+    padding: 15px 25px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#btn1:hover,#btn2:hover{
+    border: none;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    
 }
